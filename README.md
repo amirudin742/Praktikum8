@@ -57,8 +57,8 @@ int main()
     cin>> suku;
     cout<<"\n Bilangan Fibonanci untuk "<< suku << " Adalah ";
     cout<< fibonanci(suku,a,b,c);
-    return 0;
-}```
+    return 0;```
+}
 
 Berikut adalah flowchartnya
 
