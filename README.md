@@ -26,7 +26,7 @@
         }
         return c;```
 
-Berikut kode lengkapnya
+Berikut adalah kodenya
 
 ```#include <iostream>
 
