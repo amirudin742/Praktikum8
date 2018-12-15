@@ -12,7 +12,7 @@
 
 	-membuat rumus if untuk perbandingan dan rumus fibonanci
 
- c++
+``` c++
  
 if (suku== 1) //jika nilai suku 1,nilai=1
         return b;
@@ -35,11 +35,11 @@ if (suku== 1) //jika nilai suku 1,nilai=1
 
         }
 
-        return c;
+        return c;```
 
-Berikut adalah kodenya
+2 Berikut adalah kodenya
 
-#include <iostream>
+```#include <iostream>
 
 using namespace std;
 
@@ -88,13 +88,13 @@ int main()
     cout<<"\n Bilangan Fibonanci untuk "<< suku << " Adalah ";
     cout<< fibonanci(suku,a,b,c);
     return 0;
-}
+}```
 
-Berikut adalah flowchartnya
+3 Berikut adalah flowchartnya
 
 ![img](https://raw.githubusercontent.com/amirudin742/Praktikum8/master/Flowchart1.png)
 
-Berikut adalah hasilnya
+4 Berikut adalah hasilnya
 
 ![img](https://raw.githubusercontent.com/amirudin742/Praktikum8/master/Hasil1.png)
 
