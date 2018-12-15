@@ -48,7 +48,7 @@ int fibonanci (int suku, int a, int b, int c)
         }
         return c;
         }
-}```
+}
 int main()
 {
     int suku,a,b,c;
