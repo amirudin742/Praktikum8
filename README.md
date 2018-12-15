@@ -24,8 +24,10 @@
             a=b;//nilai suku a diisi dengan n
             b=c;//nilai suku b disi dengan nilai suku c
         }
-        return c;
+        return c;```
+
 Berikut kode lengkapnya
+
 ```#include <iostream>
 
 using namespace std;
