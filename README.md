@@ -53,7 +53,7 @@ int main()
     return 0;
 }``
 
-Berikut adalah flowchartnya
+``Berikut adalah flowchartnya``
 
 ![img](https://raw.githubusercontent.com/amirudin742/Praktikum8/master/Flowchart1.png)
 
