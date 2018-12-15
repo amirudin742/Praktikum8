@@ -169,35 +169,60 @@ int main()
 #Latihan3#Pembagian dengan menggunakan fungsi rekursif
 
 1.Alur Algoritmanya
+
 	-Mendefinisikan fungsi bagi
+
 int bagi(int a, int b)
+
 	-membuat rumus if dan pembagianya
+
 if (a<b) 
+
         return 0;
+
     else
+
         return 1+bagi(a-b,b); 
+
 2.Berikut kode lengkapnya
 
 #include <iostream>
 
 using namespace std;
+
 int bagi(int a, int b)
+
 {
+
     if (a<b)
+
         return 0;
+
     else
+
         return 1+bagi(a-b,b);
+
      
 }
+
 int main()
+
 {
+
     int a,b;
+
     cout << "Masukan bilangan pertama :";
+
     cin>> a;
+
     cout << "Masukan bilangan kedua :";
+
     cin>> b;
+
     cout<< " Hasil = " <<bagi (a,b);
+
     return 0;
+
 }
 
 3.Berikut adalah hasilnya
