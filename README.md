@@ -51,7 +51,8 @@ int main()
     cout<<"\n Bilangan Fibonanci untuk "<< suku << " Adalah ";
     cout<< fibonanci(suku,a,b,c);
     return 0;
-}
+}``
+
 Berikut adalah flowchartnya
 
 ![img](https://raw.githubusercontent.com/amirudin742/Praktikum8/master/Flowchart1.png)
