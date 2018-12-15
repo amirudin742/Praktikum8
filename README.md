@@ -28,7 +28,7 @@
 
 Berikut adalah kodenya
 
-#include <iostream>
+```#include <iostream>
 
 using namespace std;
 int fibonanci (int suku, int a, int b, int c)
@@ -58,7 +58,7 @@ int main()
     cout<<"\n Bilangan Fibonanci untuk "<< suku << " Adalah ";
     cout<< fibonanci(suku,a,b,c);
     return 0;
-}
+}```
 
 Berikut adalah flowchartnya
 
