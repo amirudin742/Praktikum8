@@ -101,36 +101,63 @@ int main()
 #Latihan2#Perkalian dengan penjumlahan menggunakan fungsi rekursif
 
 1.Alur Algoritmanya
+
 	-Mendefinisikan fungsi kali
+
 int kali (int a, int b)
+
 	-membuat rumus if dan perkalianya
+
 if (b==0) //jika nilai b=0 maka hasilnya 0
+
         return 0;
+
     else
+
         return a+kali(a,b-1); // nilai a ditambah (nilai a ditambah nilai b dikurangi 1)
+
 2.Berikut kode lengkapnya
 
 #include <iostream>
 
 using namespace std;
+
 int kali (int a, int b)
+
 {
+
     if (b==0)
+
         return 0;
+
     else
+
         return a+kali(a,b-1);
+
         cout<< a;
+
 }
+
 int main()
+
 {
+
     int a,b;
+
     cout << "Masukan bilangan pertama :";
+
     cin>> a;
+
     cout << "Masukan bilangan kedua :";
+
     cin>> b;
+
     cout<< " Hasil = " <<kali (a,b);
+
     return 0;
+
 }
+
 3.Berikut flowchartnya
 
 ![img](https://raw.githubusercontent.com/amirudin742/Praktikum8/master/Flowchart2.png)
