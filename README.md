@@ -13,17 +13,28 @@
 	-membuat rumus if untuk perbandingan dan rumus fibonanci
 
  c++
- if (suku== 1) //jika nilai suku 1,nilai=1
+ 
+if (suku== 1) //jika nilai suku 1,nilai=1
         return b;
+
     if (suku==0)//jika nilai suku 0,nilai=0
+
         return a;
+
     else
+
         {
+
         for ( int i=2; i<=suku; i++){
+
             c=a+b; //suku ke-3 = suku kw-1 + suku ke-2
+
             a=b;//nilai suku a diisi dengan n
+
             b=c;//nilai suku b disi dengan nilai suku c
+
         }
+
         return c;
 
 Berikut adalah kodenya
