@@ -3,10 +3,15 @@
 #latihan1#Fibonanci dengan fungsi iteratif
 
 1. Alur Algoritmanya
+
 	-mendefinisikan fungsi fibonanci
+
 	int fibonanci (int suku, int a, int b, int c)
+
 -mengisi int a =0 dan int b=1
+
 -membuat rumus if untuk perbandingan dan rumus fibonanci
+
 ```c++
  if (suku== 1) //jika nilai suku 1,nilai=1
         return b;
@@ -21,7 +26,7 @@
         }
         return c;
 Berikut kode lengkapnya
-#include <iostream>
+```#include <iostream>
 
 using namespace std;
 int fibonanci (int suku, int a, int b, int c)
