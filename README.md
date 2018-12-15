@@ -8,11 +8,11 @@
 
 	int fibonanci (int suku, int a, int b, int c)
 
--mengisi int a =0 dan int b=1
+	-mengisi int a =0 dan int b=1
 
--membuat rumus if untuk perbandingan dan rumus fibonanci
+	-membuat rumus if untuk perbandingan dan rumus fibonanci
 
-```c++
+ c++
  if (suku== 1) //jika nilai suku 1,nilai=1
         return b;
     if (suku==0)//jika nilai suku 0,nilai=0
@@ -24,11 +24,11 @@
             a=b;//nilai suku a diisi dengan n
             b=c;//nilai suku b disi dengan nilai suku c
         }
-        return c;```
+        return c;
 
 Berikut adalah kodenya
 
-```#include <iostream>
+#include <iostream>
 
 using namespace std;
 int fibonanci (int suku, int a, int b, int c)
@@ -58,7 +58,7 @@ int main()
     cout<<"\n Bilangan Fibonanci untuk "<< suku << " Adalah ";
     cout<< fibonanci(suku,a,b,c);
     return 0;
-}```
+}
 
 Berikut adalah flowchartnya
 
